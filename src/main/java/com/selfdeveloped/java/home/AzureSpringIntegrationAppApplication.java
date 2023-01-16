@@ -10,7 +10,7 @@ public class AzureSpringIntegrationAppApplication {
 
 	@GetMapping("/message")
 	public String message() {
-		return "Congrats ! Your App deployed Successfully on Azure";
+		return "Congrats Kaushal ! Your App deployed Successfully on Azure";
 	}
 	
 	public static void main(String[] args) {
